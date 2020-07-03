@@ -1,0 +1,54 @@
+@import '~antd/dist/antd.css';
+
+* {
+  font-family: Arial, Helvetica, sans-serif
+}
+.App {
+  text-align: center;
+}
+
+body {
+  background: black;
+}
+h1 {
+  color: black;;
+  text-align: center;
+}
+
+.login-header {
+  color: black;
+  display:table;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 22px;
+  
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+}
+.login-form Button {
+  margin: 5px;
+}
+
+.verde {
+  color: green;
+  font-weight: bold;
+}
+
+span {
+  font-size: 12px;
+}
+
+table .detalleApartado {
+  font-size: 12px;
+
+}
+
+.detalleApartado > table > thead > tr > th {
+  font-size: 12px !important;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "zxc-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\" \"nodemon ./dist/index.js\""
+  },
+  "author": "Jovanny Rochín",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongodb": "^3.1.18",
+    "@types/node": "^10.12.18",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "multer": "^1.4.1",
+    "typescript": "^3.2.2",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0"
+  }
+}
